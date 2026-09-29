@@ -1,0 +1,27 @@
+TOP SECRET // CONTROLLED FORENSIC SPECIFICATION // NOFORN
+
+PROJECT CYGNUS: QUANTUM-SAFE FORENSIC WATERMARKING SPECIFICATION
+================================================================
+Document Reference: CYGNUS-2026-ALPHA-09
+Security Classification: LEVEL 5 (POST-QUANTUM CELL)
+Cryptographic Suite: ML-KEM-768 / ML-DSA-65 (NIST FIPS 203/204)
+Disposition: FORENSIC VERIFICATION REFERENCE DATASET
+
+1. OPERATIONAL OBJECTIVE
+This controlled document serves as the benchmark forensic test payload for the
+Quantum-Safe Forensic Watermarking System (QSFW). Recipient decryption dynamically
+embeds a session-unique, imperceptible forensic watermark bound to post-quantum signatures.
+
+2. FORENSIC ATTRIBUTION GUARANTEE
+Each authorized recipient decrypting this document produces an independent tamper-evident block
+committed to the distributed offline ledger. In the event of unauthorized leak or exfiltration,
+the extraction pipeline isolates the watermark pattern and establishes cryptographic attribution.
+
+3. CRYPTOGRAPHIC VERIFICATION PROOFS
+Integrity can be verified via:
+- Document SHA-256 Hash Binding
+- ML-DSA Post-Quantum Digital Signature Verification
+- Merkle Path Inclusion Proof
+- Multi-node Distributed Ledger Consistency
+
+[END OF CLASSIFIED CYGNUS TEST DOCUMENT]

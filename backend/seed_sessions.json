@@ -1,0 +1,57 @@
+{
+  "recipients": {
+    "Alice Chen": "6da89434-6e1f-4eca-9afb-a0cc97b0fc13",
+    "Bob Sharma": "912aba75-604c-4633-b965-dd3901cd4fd3",
+    "Carol Martinez": "cac09667-9273-4235-ae7c-f59a3d5b99ed",
+    "David Kim": "a966104c-7f22-4595-ac68-369856d75e73"
+  },
+  "documents": {
+    "classified_intel_brief.pdf": "0b78256a-0bd0-4738-82cc-6a0b51189665",
+    "operation_nightfall.pdf": "d97e9379-f730-4893-a37a-12380663a7e4",
+    "strategic_report_q4.pdf": "77f8064b-9e36-4692-b59d-cfaf02ccf6b8"
+  },
+  "sessions": [
+    {
+      "session_id": "7a3c1ee0-a081-4239-ac43-061cada95be2",
+      "watermark_commitment": "51fcd28eb96ae4f7697be2f67d603d1b1324194a8ac1d7f371d3b7c81c5beb1a",
+      "recipient": "Alice",
+      "doc": "intel_brief"
+    },
+    {
+      "session_id": "212ee600-c55b-47e8-9ae4-65a04a231fae",
+      "watermark_commitment": "8b67b7df65c710c529a34839dc666f4ac890218929a7e49d38e02d2f113ab7b2",
+      "recipient": "Bob",
+      "doc": "intel_brief"
+    },
+    {
+      "session_id": "1bab0a36-39a8-4e84-8361-324adcef253d",
+      "watermark_commitment": "ff0b131657b81e210b9686afec1ed0f3bcdd6cc703982ad2f15dbdae31771306",
+      "recipient": "Carol",
+      "doc": "operation_nightfall"
+    },
+    {
+      "session_id": "077fd33c-7d9b-4ffd-b833-889272929c40",
+      "watermark_commitment": "fba466cb760c09c52d07e164f9b9ccb09bcd5337feb9b81f265fb10d5f3350c4",
+      "recipient": "David",
+      "doc": "operation_nightfall"
+    },
+    {
+      "session_id": "844d4128-484d-4514-ae43-28543bd0d13c",
+      "watermark_commitment": "9bb95193f0c07bfa28c6b67d52b407eca2b2d9d9e55e43a91ead9116f4b3e54c",
+      "recipient": "Alice",
+      "doc": "strategic_report"
+    },
+    {
+      "session_id": "21789bf5-0a70-4370-acb7-df792ce26d42",
+      "watermark_commitment": "5ae872a661855467dabd02257c6192e324e3bb87e98a861986f40e22c2395f34",
+      "recipient": "Carol",
+      "doc": "strategic_report"
+    },
+    {
+      "session_id": "979a6261-da0c-47b2-8358-9ddf80dfbd87",
+      "watermark_commitment": "14ab02a298bd590aee33840c242e46270db59b9c6350eee1559a95207d6d5de2",
+      "recipient": "David",
+      "doc": "strategic_report"
+    }
+  ]
+}

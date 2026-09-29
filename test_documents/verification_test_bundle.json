@@ -1,0 +1,13 @@
+{
+  "document_name": "CONFIDENTIAL_PROJECT_CYGNUS.pdf",
+  "pdf_path": "d:\\SIH\\test_documents\\CONFIDENTIAL_PROJECT_CYGNUS.pdf",
+  "text_path": "d:\\SIH\\test_documents\\CONFIDENTIAL_PROJECT_CYGNUS.txt",
+  "watermarked_leaked_path": "d:\\SIH\\test_documents\\LEAKED_CYGNUS_WATERMARKED.pdf",
+  "document_id": "5c965251-8a9e-4acf-b8af-3b999dd1b3cd",
+  "event_id": "631b0d9e-03c3-4287-9127-528935deef6f",
+  "block_index": 8,
+  "session_id": "facf5cc3-aaa7-41e8-9fb3-5838fbb53804",
+  "watermark_commitment": "26e6bfde6aed8aea310923ea5cd17003283c18855e63dca4969ded75a607532e",
+  "recipient_name": "Agent Evelyn Reed (Special Inspector)",
+  "recipient_id": "9f47c8e4-9976-404c-89f0-0f3e4a551751"
+}
