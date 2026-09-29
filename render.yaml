@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: qsfw-system
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: OFFLINE_MODE
+        value: "true"
+      - key: QSFW_WATERMARK_SECRET
+        generateValue: true
+      - key: QSFW_KEYSTORE_PASSWORD
+        generateValue: true

@@ -1,0 +1,33 @@
+# Git
+.git
+.gitignore
+
+# Frontend
+frontend/node_modules
+frontend/dist
+frontend/.oxlintrc.json
+
+# Python / Backend
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Application Data & Local Temp Files
+backend/data/
+*.db
+*.sqlite3
+backend/test_doc.pdf
+test_documents/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+*.log
